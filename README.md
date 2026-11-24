@@ -1,49 +1,77 @@
-# 🌱 goGreen 
+# GitHub Contribution Graph Generator
 
-With **goGreen**, you can make your profile look like you've been hard at work... even if you haven't. 
-NodeJs script to make commits to the past (or the future) to go green on GitHub.
+A Node.js project that uses Git commits with custom dates to generate activity patterns on your GitHub contribution graph.
 
-## About
+## Features
 
-**goGreen** helps you create commits on your GitHub profile for any date in the past. Whether you want to fill up your contribution graph or even make cool patterns and artwork.
+- Generate multiple Git commits automatically.
+- Assign custom dates to commits.
+- Generate randomized dates using Moment.js and Random.
+- Automatically stage and commit changes.
+- Push commits to a remote GitHub repository.
 
-## Getting Started
+## Technologies Used
 
-Follow these steps to bring your contribution graph to life:
+- **Node.js** – JavaScript runtime.
+- **jsonfile** – Read and write JSON files.
+- **Moment.js** – Date manipulation.
+- **Simple Git** – Interact with Git repositories.
+- **Random** – Generate random numbers.
 
-1. **Clone this repository**
+## Installation
+
+Clone the repository:
+
 ```bash
-git clone https://github.com/fenrir2608/goGreen.git
-cd goGreen
+git clone https://github.com/USERNAME/REPOSITORY.git
+cd REPOSITORY
 ```
-3. **Set up your project**
-Initialize a new Node.js project:
+
+Install dependencies:
+
 ```bash
-npm init -y
-  ```
-3. **Install the required npm modules**
-You'll need a few modules to get everything running smoothly. Install them all with:
-  ```bash
-  npm install moment simple-git random
-  ```
-4. **Create your commit script**
-- Create a JavaScript file to manage your commits.
-- Create a JSON file to store all the commit timestamp data.
+npm install
+```
 
-## Room for Improvement
+## Configuration
 
-So, you've got the basics down. What's next?
+Make sure Git is configured:
 
-- **Custom Patterns:** Experiment with different patterns on your contribution graph. Maybe spell out your name or create some cool designs.
-- **Density Control:** Play around with the number of commits per day to adjust the shades of green.
-- **Input Strings:** Convert input strings to X-Y mapped contributions.
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+```
 
-## npm Modules Used
+Also, configure authentication with GitHub using SSH or a Personal Access Token.
 
-- [`moment`](https://www.npmjs.com/package/moment) - Handles date and time manipulation.
-- [`simple-git`](https://www.npmjs.com/package/simple-git) - For easy Git commands.
-- [`random`](https://www.npmjs.com/package/random) - To generate random numbers for the commits.
+## Usage
 
-## Credits
+Run the project:
 
-Huge thanks to [Akshay Saini](https://github.com/akshaymarch7) for the original video behind this project.
+```bash
+node index.js
+```
+
+The script is configured to generate 100 commits using randomized dates.
+
+## Project Structure
+
+```text
+.
+├── index.js
+├── data.json
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+## Important Notes
+
+- This project modifies Git commit timestamps.
+- Generated contribution activity does not necessarily represent actual development work.
+- Use responsibly and do not misrepresent automated activity as genuine contributions.
+- Review the code before running it on an important repository.
+
+## License
+
+This project is licensed under the ISC License.
