@@ -39,7 +39,7 @@ Make sure Git is configured:
 
 ```bash
 git config --global user.name "Your Name"
-git config --global user.email "your-email@example.com"
+git config --global user.email "your-email@gmail.com"
 ```
 
 Also, configure authentication with GitHub using SSH or a Personal Access Token.
