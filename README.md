@@ -23,7 +23,7 @@ A Node.js project that uses Git commits with custom dates to generate activity p
 Clone the repository:
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
+git clone https://github.com/med-ndr/Automation.git
 cd REPOSITORY
 ```
 
