@@ -24,7 +24,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/med-ndr/Automation.git
-cd REPOSITORY
+cd Automation
 ```
 
 Install dependencies:
