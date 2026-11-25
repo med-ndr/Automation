@@ -72,7 +72,4 @@ The script is configured to generate 500 commits using randomized dates.
 - Generated contribution activity does not necessarily represent actual development work.
 - Use responsibly and do not misrepresent automated activity as genuine contributions.
 
-  
-## License
 
-This project is licensed under the ISC License.
