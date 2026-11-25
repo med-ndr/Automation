@@ -71,8 +71,8 @@ The script is configured to generate 500 commits using randomized dates.
 - This project modifies Git commit timestamps.
 - Generated contribution activity does not necessarily represent actual development work.
 - Use responsibly and do not misrepresent automated activity as genuine contributions.
-- Review the code before running it on an important repository.
 
+  
 ## License
 
 This project is licensed under the ISC License.
