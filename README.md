@@ -52,7 +52,7 @@ Run the project:
 node index.js
 ```
 
-The script is configured to generate 100 commits using randomized dates.
+The script is configured to generate 500 commits using randomized dates.
 
 ## Project Structure
 
@@ -60,6 +60,7 @@ The script is configured to generate 100 commits using randomized dates.
 .
 ├── index.js
 ├── data.json
+├── .gitignore
 ├── package.json
 ├── package-lock.json
 └── README.md
